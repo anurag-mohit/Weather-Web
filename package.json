@@ -3,5 +3,24 @@
     "express": "^4.18.1",
     "hbs": "^4.2.0",
     "nodemon": "^2.0.16"
-  }
+  },
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anurag-mohit/Weather-Web.git"
+  },
+  "author": "anurag mohit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anurag-mohit/Weather-Web/issues"
+  },
+  "homepage": "https://github.com/anurag-mohit/Weather-Web#readme",
+  "description": ""
 }
