@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>head}}
+
+<body>
+    {{>navbar}}
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errorimg">
+                            <img src="images/page_not_found.png" alt="" class="img-fluid" title="Anurag Mohit">
+                        </figure>
+                        <p>Welocome to <span class="text_clr">Weather Web</span></p>
+                        <h1><span class="text_clr">{{errormsg}}</span></h1>
+                        <a href="/"><button>Go Home</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+
+</html>
